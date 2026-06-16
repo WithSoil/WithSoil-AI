@@ -1,12 +1,13 @@
 # main.py
 import os
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from pydantic import BaseModel
 from google import genai
 from google.genai import types 
 from dotenv import load_dotenv
 import traceback
 from google.genai.errors import APIError
+from disease_model import CropDiseaseModel
 
 load_dotenv()
 
@@ -17,6 +18,12 @@ class ChatRequest(BaseModel):
     mode: str = "general"  
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+# 작물 병해 진단 모델 객체 생성
+crop_disease_model = CropDiseaseModel()
+
+@app.on_event("startup")
+def startup_event():
+    crop_disease_model.load()
 
 @app.get("/")
 def read_root():
@@ -24,14 +31,40 @@ def read_root():
 
 # 이곳에 작물 병해 진단 모델 업로드해주시면 될것같습니다.
 @app.post("/api/v1/ai/diagnose")
-async def diagnose_crops(file: UploadFile = File(...)):
-    return {
-        "status": "success",
-        "filename": file.filename,
-        "predictions": [
-            {"label": "sample_object", "confidence": 0.88, "box": [50, 50, 150, 150]}
-        ]
-    }
+async def diagnose_crops(
+    crop_name: str = Form(...),
+    file: UploadFile = File(...),
+    topk: int = Form(5)
+):
+    try:
+        if not file.content_type or not file.content_type.startswith("image/"):
+            raise HTTPException(status_code=400, detail="이미지 파일만 업로드할 수 있습니다.")
+
+        image_bytes = await file.read()
+
+        predictions = crop_disease_model.predict(
+            image_bytes=image_bytes,
+            crop_name=crop_name,
+            topk=topk
+        )
+
+        result = crop_disease_model.make_result(predictions[0])
+
+        return {
+            "status": "success",
+            "crop": crop_name,
+            "result_type": result["result_type"],
+            "diagnosis": result["diagnosis"],
+            "message": result["message"],
+            "confidence": result["confidence"],
+        }
+
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"진단 중 오류 발생: {str(e)}")
 
 @app.post("/api/v1/rag/chat")
 async def chat_rag(request: ChatRequest):

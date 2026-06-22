@@ -6,12 +6,15 @@ from google import genai
 from google.genai import types 
 from dotenv import load_dotenv
 import traceback
+from pathlib import Path
 from google.genai.errors import APIError
+from fastapi.responses import FileResponse
 from disease_model import CropDiseaseModel
 
 load_dotenv()
 
 app = FastAPI(title="SmartFarm AI Server")
+BASE_DIR = Path(__file__).resolve().parent
 
 class ChatRequest(BaseModel):
     query: str
@@ -28,6 +31,16 @@ def startup_event():
 @app.get("/")
 def read_root():
     return {"message": "FastAPI AI Server is running"}
+
+@app.get("/diagnosis-test", include_in_schema=False)
+def diagnosis_test_page():
+    return FileResponse(BASE_DIR / "diagnosis_test.html")
+
+@app.get("/api/v1/ai/crops")
+def get_supported_crops():
+    if crop_disease_model.crop_to_indices is None:
+        raise HTTPException(status_code=503, detail="진단 모델이 아직 준비되지 않았습니다.")
+    return {"crops": sorted(crop_disease_model.crop_to_indices.keys())}
 
 # 이곳에 작물 병해 진단 모델 업로드해주시면 될것같습니다.
 @app.post("/api/v1/ai/diagnose")

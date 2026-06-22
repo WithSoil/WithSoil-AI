@@ -134,7 +134,7 @@ class CropDiseaseModel:
         confidence = top_result["crop_filtered_confidence"]
         crop = top_result["crop"]
 
-        if confidence < 0.9:
+        if confidence <= 0.9:
             return {
                 "result_type": "low_confidence",
                 "diagnosis": None,

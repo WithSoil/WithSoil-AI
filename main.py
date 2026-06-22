@@ -6,15 +6,12 @@ from google import genai
 from google.genai import types 
 from dotenv import load_dotenv
 import traceback
-from pathlib import Path
 from google.genai.errors import APIError
-from fastapi.responses import FileResponse
 from disease_model import CropDiseaseModel
 
 load_dotenv()
 
 app = FastAPI(title="SmartFarm AI Server")
-BASE_DIR = Path(__file__).resolve().parent
 
 class ChatRequest(BaseModel):
     query: str
@@ -31,10 +28,6 @@ def startup_event():
 @app.get("/")
 def read_root():
     return {"message": "FastAPI AI Server is running"}
-
-@app.get("/diagnosis-test", include_in_schema=False)
-def diagnosis_test_page():
-    return FileResponse(BASE_DIR / "diagnosis_test.html")
 
 @app.get("/api/v1/ai/crops")
 def get_supported_crops():

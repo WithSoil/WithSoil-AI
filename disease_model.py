@@ -134,39 +134,25 @@ class CropDiseaseModel:
         confidence = top_result["crop_filtered_confidence"]
         crop = top_result["crop"]
 
-        if confidence >= 0.8:
-            if disease == "정상":
-                return {
-                    "result_type": "normal",
-                    "diagnosis": "정상",
-                    "message": f"{crop}은(는) 정상으로 보입니다.",
-                    "confidence": confidence,
-                }
+        if confidence <= 0.9:
             return {
-                "result_type": "disease",
-                "diagnosis": disease,
-                "message": f"{crop}에 {disease}이(가) 의심됩니다.",
+                "result_type": "low_confidence",
+                "diagnosis": None,
+                "message": "정확도가 낮습니다. 다른 사진으로 다시 찍어주세요.",
                 "confidence": confidence,
             }
 
-        if confidence >= 0.6:
-            if disease == "정상":
-                return {
-                    "result_type": "uncertain",
-                    "diagnosis": "정상 (불확실)",
-                    "message": "정상으로 보이지만 확실하지 않습니다. 추가 촬영을 권장합니다.",
-                    "confidence": confidence,
-                }
+        if disease == "정상":
             return {
-                "result_type": "uncertain",
-                "diagnosis": disease,
-                "message": f"{disease} 가능성이 있으나 확실하지 않습니다. 추가 촬영을 권장합니다.",
+                "result_type": "normal",
+                "diagnosis": "정상",
+                "message": f"{crop}은(는) 건강한 상태입니다.",
                 "confidence": confidence,
             }
 
         return {
-            "result_type": "low_confidence",
-            "diagnosis": None,
-            "message": "사진이 선명하지 않아 진단이 어렵습니다. 병반이 잘 보이도록 가까이서 다시 촬영해 주세요.",
+            "result_type": "disease",
+            "diagnosis": disease,
+            "message": f"{crop}에 {disease}이(가) 의심됩니다.",
             "confidence": confidence,
         }

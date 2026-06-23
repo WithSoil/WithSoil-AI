@@ -59,7 +59,7 @@ async def diagnose_crops(
         return {
             "status": "success",
             "crop": crop_name,
-            "result_type": result["result_type"],
+            "resultType": result["result_type"],
             "diagnosis": result["diagnosis"],
             "message": result["message"],
             "confidence": result["confidence"],

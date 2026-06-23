@@ -111,3 +111,53 @@ async def chat_rag(request: ChatRequest):
                 "status": error_status,
                 "message": str(e)
             }
+
+@app.post("/api/v1/rag/chat/image")
+async def chat_rag_with_image(
+    query: str = Form(...),
+    file: UploadFile = File(...),
+    mode: str = Form("general")
+):
+    try:
+        if mode != "general":
+            raise HTTPException(status_code=400, detail="이미지 질문은 일반 대화 모드만 지원합니다.")
+
+        if not file.content_type or not file.content_type.startswith("image/"):
+            raise HTTPException(status_code=400, detail="이미지 파일만 업로드할 수 있습니다.")
+
+        image_bytes = await file.read()
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=[
+                query,
+                types.Part.from_bytes(
+                    data=image_bytes,
+                    mime_type=file.content_type
+                )
+            ],
+            config=types.GenerateContentConfig(
+                tools=[{"google_search": {}}]
+            )
+        )
+
+        return {
+            "status": "success",
+            "answer": response.text
+        }
+
+    except HTTPException:
+        raise
+
+    except Exception as e:
+        traceback.print_exc()
+
+        error_status = "INTERNAL_SERVER_ERROR"
+
+        if isinstance(e, APIError) and hasattr(e, 'message') and e.response_json:
+            error_status = e.response_json.get('error', {}).get('status', 'GOOGLE_API_ERROR')
+
+        return {
+            "status": error_status,
+            "message": str(e)
+        }

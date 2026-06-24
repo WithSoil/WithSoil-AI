@@ -5,7 +5,10 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from google import genai
 from google.genai import types 
+from dotenv import load_dotenv
 import traceback
+
+load_dotenv()
 
 router = APIRouter(
     prefix="/api/v1/ai",

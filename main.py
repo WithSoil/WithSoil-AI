@@ -9,9 +9,13 @@ import traceback
 from google.genai.errors import APIError
 from disease_model import CropDiseaseModel
 
+from routers.recommendation import router as recommendation_router
+
 load_dotenv()
 
 app = FastAPI(title="SmartFarm AI Server")
+
+app.include_router(recommendation_router)
 
 class ChatRequest(BaseModel):
     query: str

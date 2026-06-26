@@ -1,0 +1,947 @@
+{
+  "괴산군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 77.8,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "무",
+      "crop_group": "밭작물",
+      "recommend_score": 66.3,
+      "difficulty_level": "보통",
+      "optimal_temp": "15~20℃",
+      "soil_ph": "5.5~6.8 적정 6.1",
+      "sowing_month": "봄무: 3월 중순~4월 하순, 가을무: 7월 중순~9월 상순",
+      "planting_month": "-",
+      "harvest_month": "봄무: 5월 중순~7월 상순, 가을무: 9월상~12월 중순",
+      "cultivation_period": "약 2~4개월",
+      "main_tasks": [
+        "씨뿌림",
+        "어린모관리",
+        "물주기",
+        "솎기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온꽃대신장",
+        "불가뭄",
+        "고온",
+        "장마",
+        "무름병"
+      ],
+      "guide_summary": "봄·가을 재배가 가능하며 수분관리와 저온·고온 피해 대응이 중요한 작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "콩",
+      "crop_group": "밭작물",
+      "recommend_score": 62.3,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~25℃",
+      "soil_ph": "6.5 내외",
+      "sowing_month": "중부 6월 상순, 남부 6월 상중순",
+      "planting_month": "-",
+      "harvest_month": "중부 10월 중순, 남부 10월 하순",
+      "cultivation_period": "약 4~5개월",
+      "main_tasks": [
+        "파종",
+        "북주기",
+        "적심",
+        "물관리",
+        "수확"
+      ],
+      "main_risks": [
+        "가뭄",
+        "침수",
+        "습해",
+        "불마름병",
+        "노린재류"
+      ],
+      "guide_summary": "6월 파종 후 10월 수확하며 수분관리와 병해충 방제가 중요한 밭작물"
+    }
+  ],
+  "단양군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 79.5,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 75.6,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 69.1,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ],
+  "보은군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 75.1,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "무",
+      "crop_group": "밭작물",
+      "recommend_score": 73.0,
+      "difficulty_level": "보통",
+      "optimal_temp": "15~20℃",
+      "soil_ph": "5.5~6.8 적정 6.1",
+      "sowing_month": "봄무: 3월 중순~4월 하순, 가을무: 7월 중순~9월 상순",
+      "planting_month": "-",
+      "harvest_month": "봄무: 5월 중순~7월 상순, 가을무: 9월상~12월 중순",
+      "cultivation_period": "약 2~4개월",
+      "main_tasks": [
+        "씨뿌림",
+        "어린모관리",
+        "물주기",
+        "솎기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온꽃대신장",
+        "불가뭄",
+        "고온",
+        "장마",
+        "무름병"
+      ],
+      "guide_summary": "봄·가을 재배가 가능하며 수분관리와 저온·고온 피해 대응이 중요한 작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 71.6,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ],
+  "영동군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 81.9,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 78.5,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 74.4,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ],
+  "옥천군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 82.3,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "콩",
+      "crop_group": "밭작물",
+      "recommend_score": 74.8,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~25℃",
+      "soil_ph": "6.5 내외",
+      "sowing_month": "중부 6월 상순, 남부 6월 상중순",
+      "planting_month": "-",
+      "harvest_month": "중부 10월 중순, 남부 10월 하순",
+      "cultivation_period": "약 4~5개월",
+      "main_tasks": [
+        "파종",
+        "북주기",
+        "적심",
+        "물관리",
+        "수확"
+      ],
+      "main_risks": [
+        "가뭄",
+        "침수",
+        "습해",
+        "불마름병",
+        "노린재류"
+      ],
+      "guide_summary": "6월 파종 후 10월 수확하며 수분관리와 병해충 방제가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 73.2,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    }
+  ],
+  "음성군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 80.6,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 77.9,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 74.4,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ],
+  "제천시": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 78.3,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 74.0,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 73.8,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    }
+  ],
+  "증평군": [
+    {
+      "rank": 1,
+      "crop_name": "콩",
+      "crop_group": "밭작물",
+      "recommend_score": 80.6,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~25℃",
+      "soil_ph": "6.5 내외",
+      "sowing_month": "중부 6월 상순, 남부 6월 상중순",
+      "planting_month": "-",
+      "harvest_month": "중부 10월 중순, 남부 10월 하순",
+      "cultivation_period": "약 4~5개월",
+      "main_tasks": [
+        "파종",
+        "북주기",
+        "적심",
+        "물관리",
+        "수확"
+      ],
+      "main_risks": [
+        "가뭄",
+        "침수",
+        "습해",
+        "불마름병",
+        "노린재류"
+      ],
+      "guide_summary": "6월 파종 후 10월 수확하며 수분관리와 병해충 방제가 중요한 밭작물"
+    },
+    {
+      "rank": 2,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 73.1,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 3,
+      "crop_name": "애호박",
+      "crop_group": "채소",
+      "recommend_score": 72.5,
+      "difficulty_level": "보통",
+      "optimal_temp": "20~25℃",
+      "soil_ph": "-",
+      "sowing_month": "4월 중순~5월 중순",
+      "planting_month": "6월 상순~6월 하순",
+      "harvest_month": "6월 하순~8월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨뿌림",
+        "아주심기",
+        "유인",
+        "웃거름관리",
+        "수확"
+      ],
+      "main_risks": [
+        "가뭄",
+        "장마",
+        "온도장해",
+        "낙과현상"
+      ],
+      "guide_summary": "4~5월 파종 후 6월 정식, 여름철 수확하며 유인·수분·온도관리가 중요함"
+    }
+  ],
+  "진천군": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 83.1,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 80.4,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 74.3,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ],
+  "청주시": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 80.5,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "콩",
+      "crop_group": "밭작물",
+      "recommend_score": 80.4,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~25℃",
+      "soil_ph": "6.5 내외",
+      "sowing_month": "중부 6월 상순, 남부 6월 상중순",
+      "planting_month": "-",
+      "harvest_month": "중부 10월 중순, 남부 10월 하순",
+      "cultivation_period": "약 4~5개월",
+      "main_tasks": [
+        "파종",
+        "북주기",
+        "적심",
+        "물관리",
+        "수확"
+      ],
+      "main_risks": [
+        "가뭄",
+        "침수",
+        "습해",
+        "불마름병",
+        "노린재류"
+      ],
+      "guide_summary": "6월 파종 후 10월 수확하며 수분관리와 병해충 방제가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 75.2,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    }
+  ],
+  "충주시": [
+    {
+      "rank": 1,
+      "crop_name": "고추",
+      "crop_group": "채소",
+      "recommend_score": 79.4,
+      "difficulty_level": "어려움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "6.1~7.6, 적정 6.5",
+      "sowing_month": "2초순~2하순",
+      "planting_month": "4월 중순~5월 중순",
+      "harvest_month": "6~10월",
+      "cultivation_period": "약 8개월",
+      "main_tasks": [
+        "씨뿌림",
+        "모기르기",
+        "아주심기",
+        "지주세우기",
+        "가뭄 물주기"
+      ],
+      "main_risks": [
+        "저온",
+        "가뭄",
+        "장마",
+        "탄저병",
+        "돌림병"
+      ],
+      "guide_summary": "2월 파종 후 5월 정식, 6~10월 수확하는 대표 채소로 장마·가뭄·병해 관리가 중요함"
+    },
+    {
+      "rank": 2,
+      "crop_name": "들깨",
+      "crop_group": "밭작물",
+      "recommend_score": 70.7,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "20~30℃",
+      "soil_ph": "-",
+      "sowing_month": "직파재배 6월 중순~하순, 육묘이식재배 6월 상순~7월 상순",
+      "planting_month": "육묘이식재배 6월 하순~7월 상순",
+      "harvest_month": "9월 중순~10월 중순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "파종",
+        "정식",
+        "적심",
+        "물주기",
+        "수확"
+      ],
+      "main_risks": [
+        "초기가뭄",
+        "고온건조",
+        "장마",
+        "병해",
+        "충해"
+      ],
+      "guide_summary": "6~7월 파종 또는 정식 후 9~10월 수확하며 가뭄·장마·병해충 관리가 중요한 밭작물"
+    },
+    {
+      "rank": 3,
+      "crop_name": "감자",
+      "crop_group": "밭작물",
+      "recommend_score": 70.4,
+      "difficulty_level": "쉬움",
+      "optimal_temp": "14~23℃",
+      "soil_ph": "5.0~6.0 적정 5.5",
+      "sowing_month": "-",
+      "planting_month": "2월 상순~3월 하순",
+      "harvest_month": "5월 하순~6월 하순",
+      "cultivation_period": "약 3~4개월",
+      "main_tasks": [
+        "씨감자준비",
+        "싹틔우기",
+        "심기",
+        "북주기",
+        "수확"
+      ],
+      "main_risks": [
+        "저온",
+        "습해",
+        "가뭄",
+        "중심공동",
+        "역병"
+      ],
+      "guide_summary": "봄에 씨감자를 심어 초여름 수확하며 저온·습해·역병 관리가 중요한 밭작물"
+    }
+  ]
+}
